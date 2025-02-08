@@ -1,0 +1,19 @@
+{
+  "name": "guia-api",
+  "version": "1.0.0",
+  "description": "Jest API tests for REST endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "jest-fetch-mock": "^3.0.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "nock": "^14.0.1"
+  }
+}

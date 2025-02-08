@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Jest cache and coverage
+coverage/
+.jest/
+.jest-cache/
+.jest-test-results.json
+
+# Environment variables
+.env
+.env.test
+
+# Logs
+logs/
+*.log
+log/
+*.log*
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# OS files
+Thumbs.db
