@@ -4,7 +4,7 @@ module.exports = {
   collectCoverage: false, // API tests may not always require coverage
   reporters: [
     "default",
-    ["jest-junit", { outputDirectory: "test-results", outputName: "jest-junit.xml" }]
+    ["jest-junit", { outputDirectory: ".", outputName: "junit.xml" }]
   ],
   testResultsProcessor: "jest-junit"
 };
